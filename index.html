@@ -540,6 +540,48 @@
 
                 <h2>Publications</h2>
                 <div class="publications">
+			 <div class="publication">
+                        <h3>Vision Transformer Adapters for Generalizable Multitask Learning</h3>
+                        <div class="pcontent">
+                            <div class="authors">Deblina Bhattacharjee, Sabine Süsstrunk, Mathieu Salzmann</div>
+                            <div class="venue">ICCV, 2023, Paris, France</div>
+                            <div class="col justify-content-center text-center">
+                    <img src="overall-vision-adapter-architecture.png" style="width:100%; margin-right:-10px; margin-top:-10px;">
+            </div>
+                            <label for="pub15">Abstract</label>
+                            <div class="paperlink">
+                                <a href="https://arxiv.org/pdf/2308.12372.pdf" target="_blank">Paper link</a>
+                            </div>
+                            <input type="checkbox" id="pub15" />
+                            <div class="abstract">
+				We introduce the first multitasking vision transformer adapters that learn generalizable task affinities which can be applied to novel tasks and domains. Integrated into an off-the-shelf vision transformer backbone, our adapters can simultaneously solve multiple dense vision tasks in a parameter-efficient manner, unlike existing multitasking transformers that are parametrically expensive. In contrast to concurrent methods, we do not require retraining or fine-tuning whenever a new task or domain is added. We introduce a task-adapted attention mechanism within our adapter framework that combines gradient-based task similarities with attention-based ones. The learned task affinities generalize to the following settings: zero-shot task transfer, unsupervised domain adaptation, and generalization without fine-tuning to novel domains. We demonstrate that our approach outperforms not only the existing convolutional neural network-based multitasking methods but also the vision transformer-based ones.    
+			    </div>
+                    </div>
+
+		            <div class="publication">
+                        <h3>Dense Multitask Learning To Reconfigure Comics</h3>
+                        <div class="pcontent">
+                            <div class="authors">Deblina Bhattacharjee, Sabine Süsstrunk, Mathieu Salzmann</div>
+                            <div class="venue">CVPR (Workshop proceedings), 2023, Vanvouver, Canada</div>
+                            <div class="col justify-content-center text-center">
+                    <img src="architecture.png" style="width:100%; margin-right:-10px; margin-top:-10px;">
+            </div>
+                            <label for="pub14">Abstract</label>
+                            <div class="paperlink">
+                                <a href="https://openaccess.thecvf.com/content/CVPR2023W/WiCV/papers/Bhattacharjee_Dense_Multitask_Learning_To_Reconfigure_Comics_CVPRW_2023_paper.pdf" target="_blank">Paper link</a>
+                            </div>
+                            <input type="checkbox" id="pub14" />
+                            <div class="abstract">
+				In this paper, we develop a MultiTask Learning (MTL) model to achieve dense predictions for comics panels to, in turn, facilitate the transfer of comics from one publication channel to another by assisting authors in the task of reconfiguring their narratives. Our MTL method can successfully identify the semantic units as well as the embedded notion of 3D in comics panels. This is a significantly challenging problem because comics comprise disparate artistic styles, illustrations, layouts, and object scales that depend on the author’s creative process. Typically, dense image-based prediction techniques require a large corpus
+of data. Finding an automated solution for dense prediction in the comics domain, therefore, becomes more difficult with the lack of ground-truth dense annotations for
+the comics images. To address these challenges, we develop the following solutions- we leverage a commonly used strategy known as unsupervised image-to-image translation, which allows us to utilize a large corpus of real-world annotations; - we utilize the results of the translations
+to develop our multitasking approach that is based on a vision transformer backbone and a domain transferable attention module; -we study the feasibility of integrating our
+MTL dense-prediction method with an existing retargeting
+method, thereby reconfiguring comics.
+			    </div>
+                    </div>
+				    
+			
                     <div class="publication">
                         <h3>MulT: An End-to-End Multitask Learning Transformer</h3>
                         <div class="pcontent">
